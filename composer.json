@@ -1,0 +1,12 @@
+{
+    "name": "faisalahsan/laraalerts",
+    "description": "Laravel JS alerts/ toasts",
+    "authors": [
+        {
+            "name": "Faisal Ahsan",
+            "email": "faisalahsan.se@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
