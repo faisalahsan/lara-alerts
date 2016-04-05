@@ -11,7 +11,7 @@ class LaraAlertServiceProvider extends ServiceProvider{
 	}   
 
 	public function register(){
-		$this->app->bind('register-laraalerts' , function(){
+		$this->app->bind('register-toast' , function(){
 			return new Toast;
 		});
 	}
