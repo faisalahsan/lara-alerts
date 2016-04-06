@@ -24,10 +24,16 @@ Follow below steps
         'Toast'    =>  FaisalAhsan\LaraAlerts\Facade\ToastFacade::class,
     ),
     ```
+- **Run below command** 
+  
+    ```
+      php artisan vendor:publish
+    ```
 
 ###### Step :- 3
 
-- Include files in your layout --
+- **Include files in your layout**
+
     ```
         <link rel="stylesheet" href="/css/toast.css">
         <script type="text/javascript" src="/js/toast.js"></script>

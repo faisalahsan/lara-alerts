@@ -105,6 +105,57 @@
 		}
 
 		/**
+		* Get a toast object of type WARNING.
+		*
+		* This defines that, this is a warning.
+		*
+		* @param  string  $heading
+		* @param  string  $text
+		* @return \Faisalahsan\LaraAlerts\Toast
+		*/
+		public function warning( $heading, $text ){
+			$this->icon 		= 'warning';
+			$this->heading 		= $heading;
+			$this->text 		= $text;
+
+			return $this;
+		}
+
+		/**
+		* Get a toast object of type ERROR.
+		*
+		* This defines that, this is a error.
+		*
+		* @param  string  $heading
+		* @param  string  $text
+		* @return \Faisalahsan\LaraAlerts\Toast
+		*/
+		public function error( $heading, $text ){
+			$this->icon 		= 'error';
+			$this->heading 		= $heading;
+			$this->text 		= $text;
+
+			return $this;
+		}
+
+		/**
+		* Get a toast object of type SUCCESS.
+		*
+		* This defines that, this is a success.
+		*
+		* @param  string  $heading
+		* @param  string  $text
+		* @return \Faisalahsan\LaraAlerts\Toast
+		*/
+		public function success( $heading, $text ){
+			$this->icon 		= 'success';
+			$this->heading 		= $heading;
+			$this->text 		= $text;
+
+			return $this;
+		}
+
+		/**
 		* Get a animaiton type of toast.
 		*
 		* This defines, this is fade animation.
