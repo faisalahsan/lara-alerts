@@ -8,6 +8,11 @@
             "email": "faisalahsan.se@gmail.com"
         }
     ],
+    "autoload": {
+    "psr-4": {
+      "FaisalAhsan\\LaraAlerts\\": "src/"
+    }
+  },
     "minimum-stability": "dev",
     "require": {}
 }
