@@ -1,6 +1,7 @@
 {
     "name": "faisalahsan/laraalerts",
     "description": "Laravel JS alerts/ toasts",
+    "keywords": ["laravel", "alerts", "toasts", "alertsutil", "laraalerts"],
     "authors": [
         {
             "name": "Faisal Ahsan",
